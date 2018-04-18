@@ -13,4 +13,36 @@ body {
     background-color:#FFFAFA;
     color:#666;
     font-family: 'Open Sans', sans-serif;
+    padding-bottom: 40px;
+}
+.section {
+    margin-bottom: 50px;
+}
+
+.section_head {
+    margin-bottom: 30px;
+}
+
+.item {
+    border-top: 2px solid lightgrey;
+    padding: 10px;
+}
+
+.small_image{
+    width: 150px;
+    height: 150px;
+}
+
+.side_border{
+    border-left: 2px solid lightgrey;
+}
+footer {
+    background-color: #FFFAFA;
+    position: absolute;
+    font-family: 'Indie Flower', cursive;
+    font-size: 32px;
+    color:#666;
+    margin-left: 60px;
+    height: 50px;
+    width: 100%;
 }

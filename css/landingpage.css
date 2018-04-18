@@ -5,12 +5,22 @@
     
 }
 .jumbotext {
-    margin-right: 200px;  
+    margin-right: 185px;  
     color: #F8F8FF;
-    padding-top: 275px;
+    padding-top: 290px;
     padding-left: 10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 .row {
     padding-bottom: 40px;
+}
+footer {
+    background-color: #FFFAFA;
+    position: absolute;
+    font-family: 'Indie Flower', cursive;
+    font-size: 32px;
+    color:#666;
+    margin-left: 60px;
+    height: 50px;
+    width: 100%;
 }
