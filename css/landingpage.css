@@ -11,6 +11,23 @@
     padding-top: 275px;
     padding-left: 10px;
 }
+.row {
+    padding-bottom: 40px;
+}
 .navbar {
     margin-bottom: 0px;
+}
+.navbar-default {
+    background-color: #FFFAFA;
+    /*color: #F8F8FF;*/
+}
+.navbar-default .navbar-brand {
+    /*color: #FFFAFA;*/
+    font-family: 'Indie Flower', cursive;
+    font-size: 32px;
+    
+}
+body {
+    background-color:#FFFAFA;
+    color:#666;
 }
