@@ -1,0 +1,16 @@
+.navbar {
+    margin-bottom: 0px;
+}
+.navbar-default {
+    background-color: #FFFAFA;
+}
+.navbar-default .navbar-brand {
+    font-family: 'Indie Flower', cursive;
+    font-size: 32px;
+    
+}
+body {
+    background-color:#FFFAFA;
+    color:#666;
+    font-family: 'Open Sans', sans-serif;
+}
