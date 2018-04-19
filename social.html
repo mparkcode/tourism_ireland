@@ -8,7 +8,8 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css" type="text/css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/social.css" type="text/css" />
+    <title>Things to do !</title> <!-- Xav : Changed the title from "Document" to "Things to do!" for the tab title --> 
 </head>
 <body>
     <div class="container">
@@ -20,7 +21,7 @@
                     </a>
                 </div>
                 <ul class="nav navbar-nav">
-                    <li class=""><a href="accomodation.html">Accomodation</a></li>
+                    <li class=""><a href="accomodation.html">Accommodation</a></li>
                     <!--Active highlights the section on the navbar. It shows us that we're on the home page.-->
                     <li class=""><a href="transport.html">Transport</a></li>
                     <li class="active"><a href="social.html">Things To Do</a></li>
@@ -29,18 +30,41 @@
         </nav>
     </div>
     
+    <!--*******HEADING PICTURE***********-->
+        <div class="row hidden-xs">
+           <div class="col-xs-12">
+               <section class="callout jumbotron text-left">
+                        <div class="jumbotext">
+                           <h1>Things To Do.</h1>
+                        </div>
+               </section>
+          </div>
+      </div>
+    
+    
+    <!--*********RESTAURANTS SECTION******************-->
     <div class="container">
         <!--Restaurants-->
         <div class="section">
-            <h1 class="section_head">Highlights of Dublin Restaurants</h1>
+            <h1 class="section_head">Get Stuffed - Top Rated Dublin Restaurants</h1>
         
             <div class="row item">
                 <div class="col-sm-2">
                     <img src="https://media-cdn.tripadvisor.com/media/photo-s/12/4a/90/97/photo0jpg.jpg" class="img-thumbnail small_image"></img>
                 </div>
                 <div class="col-sm-10  side_border">
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
                     <h3>Fish Shack Cafe</h3>
                     <p>Picturesque, little, beautiful seafood heaven.Started with a platter to share which was out of this world. My company continued with scampi and I chose Hake which were both. Weather you live nearby or visiting Dublin, make sure to pop in, you will not be disappointed. Highly recommended</p>
+                    
+                    <!-- XA : you might want to add "target" as in [<a target="blank_" href=""] for the link to open in a new tab and not in the current tab -->
+                    
+                    <a target="blank_" href="https://www.google.com/maps/place/Fish+Shack+Caf%C3%A9/@53.2892837,-6.1275722,17z/data=!3m1!4b1!4m5!3m4!1s0x4867063a5c28fbd9:0x4b5645823fb42f02!8m2!3d53.2892837!4d-6.1253835"><button class="btn btn-default">Get Directions</button></a>
+                    <button class="btn btn-default">Leave a Review</button>
                 </div>
             </div>
             <div class="row item">
@@ -48,8 +72,15 @@
                     <img src="https://www.chapteronerestaurant.com/wp-content/uploads/2013/10/the_restaurant_0013_ChOne_15.jpg" class="img-thumbnail small_image"></img>
                 </div>
                 <div class="col-sm-10  side_border">
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>                
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>                
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>                
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>                
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
                     <h3>Chapter One Restaurant</h3>
                     <p>Fantastic meal! Service was extremely good with everything you would expect from a restaurant with such a good reputation. Food was beautifully and perfectly prepared. The beef in particular was perfectly cooked and the dessert was simple amazing. Highly recommend this place.</p>
+                    <a target="blank_" href="https://www.google.com/maps/place/Chapter+One+Restaurant/@53.3543319,-6.2663105,17z/data=!3m1!4b1!4m5!3m4!1s0x48670e80cf6bb36b:0x9d52daf7f4cdca6!8m2!3d53.3543319!4d-6.2641218"><button class="btn btn-default">Get Directions</button></a>
+                    <button class="btn btn-default">Leave a Review</button>
                 </div>
             </div>
             <div class="row item">
@@ -57,16 +88,23 @@
                     <img src="https://www.irishtimes.com/polopoly_fs/1.1333845.1363957113!/image/image.jpg_gen/derivatives/landscape_620/image.jpg" class="img-thumbnail small_image"></img>
                 </div>
                 <div class="col-sm-10  side_border">
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
                     <h3>The Vintage Kitchen</h3>
                     <p>Wonderful restaurant with a very nice atmosphere and friendly service. The room is very tiny, the kitchen included - anyway around 30 people find a spot. Food is presented in a nice way in nice pans and/or on wooden plates.  The drink menu is simple - one white, one red, sparkling wine and that's it. The red wine was fantastic. Water is included. The food was good, my steak was more medium well than medium rare which is the only negative point. However, for the overall experience the vintage kitchen deserves a 5 star rating!
                         Thanks for the nice evening!</p>
+                    <a target="blank_" href="https://www.google.com/maps/place/The+Vintage+Kitchen/@53.3469072,-6.2578833,17z/data=!3m1!4b1!4m5!3m4!1s0x48670e854300423b:0x463d62cb3889817f!8m2!3d53.3469072!4d-6.2556946"><button class="btn btn-default">Get Directions</button></a>
+                    <button class="btn btn-default">Leave a Review</button>
                 </div>
             </div>
         </div>
+        <!--*************END OF RESTAURANTS*********************-->
         
         
-        
-        <!--Places to drink-->
+        <!--*************BARS SECTION*********************-->
         <div class="section">
             <h1 class="section_head">Best Dublin Boozers</h1>
             
@@ -75,8 +113,15 @@
                     <img src="https://www.rareirishstuff.com/_fileUpload/Image/1_148605_390840670999927_2115676880_n.jpg" class="img-thumbnail small_image"></img>
                 </div>
                 <div class="col-sm-10  side_border">
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
                     <h3>The Long Hall</h3>
                     <p>Great bar, great staff, decent selection of beers (not many craft beers though). Always jammed and they don't pipe loud music into the place which is a real winner for me... You can actually have a chat in this place! Great place for a night out.</p>
+                    <a target="blank_" href="https://www.google.com/maps/place/The+Long+Hall/@53.34185,-6.2674867,17z/data=!3m1!4b1!4m5!3m4!1s0x48670e9dbb5b181d:0xdfeb8b863c5a3d19!8m2!3d53.34185!4d-6.265298"><button class="btn btn-default">Get Directions</button></a>
+                    <button class="btn btn-default">Leave a Review</button>
                 </div>
             </div>
             <div class="row item">
@@ -84,8 +129,15 @@
                     <img src="https://www.dublintown.ie/wp-content/uploads/2016/11/stags-head-blog-size-770.jpg" class="img-thumbnail small_image"></img>
                 </div>
                 <div class="col-sm-10  side_border">
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
                     <h3>The Stag's head</h3>
                     <p>Great pub. Cozy and as is the case with most pubs in Dublin, the staff is friendly and willing to help you with any decision making you may need. Fish and chips were great. Whiskey selection also great. Check the calendar for events happening upstairs. Be sure to check out ukulele night, for some awesome uke renditions of pop classics accompanied by a friendly bunch and booze.</p>
+                    <a target="blank_" href="https://www.google.com/maps/place/The+Stag's+Head/@53.3438235,-6.2658475,17z/data=!3m1!4b1!4m5!3m4!1s0x48670e9ce8919bf1:0x7310209e5b553be6!8m2!3d53.3438235!4d-6.2636588"><button class="btn btn-default">Get Directions</button></a>
+                    <button class="btn btn-default">Leave a Review</button>
                 </div>
             </div>
             <div class="row item">
@@ -93,11 +145,75 @@
                     <img src="https://c1.staticflickr.com/5/4115/4765278022_312310dc69_b.jpg" class="img-thumbnail small_image"></img>
                 </div>
                 <div class="col-sm-10  side_border">
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
                     <h3>O'Donoghues Bar</h3>
                     <p>We seem to hit this pub every time we're out around St Stephen's Green for working dinners. The old outside alley area that's now covered is my favorite section since it's a bit quieter and it's heated in the winter from various overhead units, making it warm almost to the sidewalk. And the locals always say this place pours one of the better pints of Guinness in town. Tastes good to me :) I've never ordered food, so I can't speak to that, but there's usually room to get in and get a pint and quiet enough to talk to friends.</p>
+                    <a target="blank_" href="https://www.google.com/maps/place/O'Donoghues+Bar/@53.3382083,-6.2564179,17z/data=!3m1!4b1!4m7!3m6!1s0x48670e99bae1e0c3:0xeb7140f18a9bf8cc!5m1!1s2018-04-22!8m2!3d53.3382083!4d-6.2542292"><button class="btn btn-default">Get Directions</button></a>
+                    <button class="btn btn-default">Leave a Review</button>
                 </div>
             </div>            
         </div>
+        <!--*************END OF BARS*********************-->
+        
+        <!--*************NIGHTCLUBS SECTION*********************-->
+        <div class="section">
+            <h1 class="section_head">Dance Your Irish Socks Off</h1>
+            
+            <div class="row item">
+                <div class="col-sm-2">
+                    <img src="https://www.residentadvisor.net/images/clubs/lg/b1c0ef45c806f9ec25d38cbfc5a8e862.jpg" class="img-thumbnail small_image"></img>
+                </div>
+                <div class="col-sm-10  side_border">
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <h3>Button Factory</h3>
+                    <p>Great music venue with good quick service at the bars. It is right in the heart of temple bar and is serviced by plenty of public transport. Inside they have a cloak room charging €2 per item and an upstairs balcony area with its own bar. Also has an upstairs smoking terrace.</p>
+                    <a target="blank_" href="https://www.google.com/maps/place/Button+Factory/@53.3449334,-6.2667115,17z/data=!3m1!4b1!4m7!3m6!1s0x48670e9cd681f0a7:0xdfa92448d057c1c5!5m1!1s2018-04-22!8m2!3d53.3449334!4d-6.2645228"><button class="btn btn-default">Get Directions</button></a>
+                    <button class="btn btn-default">Leave a Review</button>
+                </div>
+            </div>
+            <div class="row item">
+                <div class="col-sm-2">
+                    <img src="https://www.irishexaminer.com/remote/media.central.ie/media/images/c/CopperFaceJacksExaminerPIC.jpg?width=300&s=ie-155123" class="img-thumbnail small_image"></img>
+                </div>
+                <div class="col-sm-10  side_border">
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    <h3>Copper Face Jacks</h3>
+                    <p>It's Ireland's most famous night club. Ah, it is what it is. It's not classy. It has nothing exceptional about it, in terms of decor or music (very retro-pop focused) but it's a great laugh at 3am in the morning.</p>
+                    <a target="blank_" href="https://www.google.com/maps/place/Copper+Face+Jacks/@53.3353775,-6.2657876,17z/data=!3m1!4b1!4m7!3m6!1s0x48670e9f9a799093:0xb861fbad14b1bce3!5m1!1s2018-04-22!8m2!3d53.3353775!4d-6.2635989"><button class="btn btn-default">Get Directions</button></a>
+                    <button class="btn btn-default">Leave a Review</button>
+                </div>
+            </div>
+            <div class="row item">
+                <div class="col-sm-2">
+                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/0b/52/8b/72/bar.jpg"  class="img-thumbnail small_image"></img>
+                </div>
+                <div class="col-sm-10  side_border">
+                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                    <h3>Dicey's Garden</h3>
+                    <p>Very packed, music used to be better in this place, overall it used to be better! But beer is cheap, that saves the day!</p>
+                    <a target="blank_" href="https://www.google.com/maps/place/Dicey's+Garden+Club/@53.3358639,-6.2657456,17z/data=!3m1!4b1!4m7!3m6!1s0x48670e9fbd59debb:0x48ff9c9781cd8e3d!5m1!1s2018-04-22!8m2!3d53.3358639!4d-6.2635569"><button class="btn btn-default">Get Directions</button></a>
+                    <button class="btn btn-default">Leave a Review</button>
+                </div>
+            </div>            
+        </div>
+        <!--*************END OF NIGHTCLUBS*********************-->       
+        
     </div>
 </body>
 <footer>Tourism Ireland</footer>
