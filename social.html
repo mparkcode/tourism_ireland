@@ -31,15 +31,34 @@
     </div>
     
     <!--*******HEADING PICTURE***********-->
-        <div class="row hidden-xs">
-           <div class="col-xs-12">
+    
+        <div class="row visible-lg">
+           <div class="col-lg-10 col-sm-offset-1">
                <section class="callout jumbotron text-left">
-                        <div class="jumbotext">
-                           <h1>Things To Do.</h1>
-                        </div>
-               </section>
-          </div>
-      </div>
+                    <div class="jumbotext">
+                        <h1>Things To Do.</h1>
+                    </div>
+                </section>
+            </div>
+        </div>
+    
+        <div class="row visible-sm visible-md ">
+           <div class="col-sm-12">
+               <section class="callout jumbotron text-left">
+                    <div class="jumbotext">
+                        <h1>Things To Do.</h1>
+                    </div>
+                </section>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row visible-xs">
+                <div class="col-xs 12">
+                    <h1 class="small_head">Things to do</h1>
+                </div>  
+            </div>
+        </div>
     
     
     <!--*********RESTAURANTS SECTION******************-->
@@ -195,26 +214,53 @@
                     <button class="btn btn-default">Leave a Review</button>
                 </div>
             </div>
-            <div class="row item">
-                <div class="col-sm-2">
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-s/0b/52/8b/72/bar.jpg"  class="img-thumbnail small_image"></img>
+            
+                <div class="row item">
+                    <div class="col-sm-2">
+                        <img src="https://media-cdn.tripadvisor.com/media/photo-s/0b/52/8b/72/bar.jpg"  class="img-thumbnail small_image"></img>
+                    </div>
+                    <div class="col-sm-10  side_border">
+                        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                        <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+                        <h3>Dicey's Garden</h3>
+                        <p>Very packed, music used to be better in this place, overall it used to be better! But beer is cheap, that saves the day!</p>
+                        <a target="blank_" href="https://www.google.com/maps/place/Dicey's+Garden+Club/@53.3358639,-6.2657456,17z/data=!3m1!4b1!4m7!3m6!1s0x48670e9fbd59debb:0x48ff9c9781cd8e3d!5m1!1s2018-04-22!8m2!3d53.3358639!4d-6.2635569"><button class="btn btn-default">Get Directions</button></a>
+                        <button class="btn btn-default">Leave a Review</button>
+                    </div>
                 </div>
-                <div class="col-sm-10  side_border">
-                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-                    <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-                    <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-                    <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-                    <span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
-                    <h3>Dicey's Garden</h3>
-                    <p>Very packed, music used to be better in this place, overall it used to be better! But beer is cheap, that saves the day!</p>
-                    <a target="blank_" href="https://www.google.com/maps/place/Dicey's+Garden+Club/@53.3358639,-6.2657456,17z/data=!3m1!4b1!4m7!3m6!1s0x48670e9fbd59debb:0x48ff9c9781cd8e3d!5m1!1s2018-04-22!8m2!3d53.3358639!4d-6.2635569"><button class="btn btn-default">Get Directions</button></a>
-                    <button class="btn btn-default">Leave a Review</button>
-                </div>
-            </div>            
+            
         </div>
         <!--*************END OF NIGHTCLUBS*********************-->       
         
     </div>
 </body>
-<footer>Tourism Ireland</footer>
+<footer>
+     <div class="container">
+        <div class="row">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
+              <em>Your Irish Adventure Awaits</em>
+        </div>
+</footer>
+
+    <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
 </html>

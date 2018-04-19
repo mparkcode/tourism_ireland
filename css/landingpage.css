@@ -1,7 +1,9 @@
 .jumbotron {
     background-image: url("https://www.riotgames.com/darkroom/1440/0dffc174c72ce3dbaa23a8650557b624:79c68bf22b496b9ffdab7bcb34c930d1/dublin.jpg");
+    background-size: 100%;
     background-position: left;
     height: 450px;
+    overflow: hidden;
     
 }
 .jumbotext {
@@ -11,22 +13,21 @@
     padding-left: 10px;
     font-family: 'Playfair Display', serif;
 }
+.container col-sm-12 {
+    padding-bottom: 30px;
+    padding-left: 20px;
+    margin-left:;
+}
 .row {
     padding-bottom: 40px;
 }
-footer {
-    background-color: #FFFAFA;
-    /*position: absolute;*/
-    font-family: 'Indie Flower', cursive;
-    font-size: 32px;
-    color:#666;
-    /*margin-left: 60px;*/
-    /*height: 50px;*/
-    /*width: 100%;*/
+.row p {
+    text-align: right;
 }
-#foot {
-    font-size:20px;
-    font-weight: lighter;
-    padding-top:10px;
-    
+.container footer {
+    margin-top: 40px;
+    margin-bottom:2px;
+}
+col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    float: none;
 }

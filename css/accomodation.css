@@ -1,0 +1,21 @@
+.jumbotron {
+    background-image: url("http://www.globalgrasshopper.com/wp-content/uploads/2012/06/Folklore-Night-Brazen-Head-Dublin.jpg");
+    background-size: 100% 100%;
+    background-position: left;
+    height: 450px;
+    
+}
+.jumbotext {
+    margin-right: 185px;  
+    color: #F8F8FF;
+    padding-top: 290px;
+    padding-left: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+iframe {
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1px solid #6495ED;
+    padding: 10px;
+}

@@ -13,7 +13,7 @@
     <style type="text/css">
         .jumbotron{
             background-image:url("https://www.mespilhotel.com/cmsGallery/imagerow/7855/resized/1600x693/luas.jpg");
-            background-size: cover;
+            background-size: 100% 100%;
         }
         .jumbotron h1{
             text-shadow: 0 0 20px black;
@@ -42,6 +42,9 @@
             overflow: hidden;
             transition: max-height 0.2s ease-out;
         }
+        .mrg10{
+            margin:20px auto;
+        }
     </style>
 </head>
 <body>
@@ -64,7 +67,17 @@
     <!-- ./navbar-->
     
     <!-- Jumbotron -->
-        <div class="row">
+        <div class="row visible-lg">
+           <div class="col-lg-10 col-sm-offset-1">
+               <section class="callout jumbotron text-left">
+                    <div class="jumbotext">
+                        <h1>Getting Around</h1>
+                    </div>
+                </section>
+            </div>
+        </div>
+    
+        <div class="row visible-sm visible-md">
            <div class="col-xs-12">
                <section class="callout jumbotron text-left">
                         <div class="jumbotext">
@@ -73,6 +86,14 @@
                </section>
           </div>
       </div>
+      
+        <div class="container">
+            <div class="row visible-xs">
+                <div class="col-xs 12">
+                    <h1 class="small_head">Getting Around</h1>
+                </div>  
+            </div>
+        </div>
     <!-- ./jumbotron -->
     
     <!-- Full Page Container -->
@@ -80,14 +101,16 @@
         
         <!-- Narrow Container -->
         <div class="container"> 
-            <p>Dublin is a fantastic city, but there is no point being here unless you know how to get places.! <br>Here are the best ways to get around
-            </p>
+            <p>Dublin is a fantastic city, but there is no point being here unless you know how to get places.! <br>Here are the best ways to get around</p>
+            
+            
             <h2>Public Transport</h2>
+            
             <!-- Dublin Bus -->
             <button class="accordion">
             <div class="row">
                 <div class="col-sm-2">
-                    <img src="https://img.rasset.ie/000bfed5-800.jpg" class="img-thumbnail small_image"></img>
+                    <img src="data:image/jpeg;base64,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" class="img-thumbnail small_image"></img>
                 </div>
                 <div class="col-sm-10  side_border">
                     <h3>Dublin Bus</h3>
@@ -96,8 +119,30 @@
             </div>
             </button>
             <div class="panel">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-              </p>
+              <div class="col-sm-9" style=" height:400px; background-color:red"></div>
+              <div class="col-sm-3" style=" height:400px; background-color:red"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora soluta est, nobis ipsa molestiae, quis quo, a voluptates aspernatur facilis cumque quibusdam maxime. Dolore maxime, natus enim minus impedit, numquam esse reprehenderit commodi dolores nostrum reiciendis. Placeat voluptates beatae expedita.</p>
+              <u</div>
+            </div>
+            <button class="accordion">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <img src="data:image/png;base64,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" class="img-thumbnail small_image"></img>
+                    </div>
+                    <div class="col-sm-10  side_border">
+                        <h3>Dublin Bus</h3>
+                    </div>
+                </div>
+            </button>
+            <div class="panel col-sm-12">
+                  <div class="row col-sm-9">
+                    <!--<img src="https://img.rasset.ie/000bfed5-800.jpg"></img>-->
+                  </div>
+                  <div class="row col-sm-3">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto at velit laboriosam repudiandae suscipit, animi excepturi commodi, consectetur ipsam dignissimos!</p>
+                            <div class="col-sm-4 mrg10"><a>Website</a></div>
+                            <div class="col-sm-4 mrg10"><a>Cost</a></div>
+                            <div class="col-sm-4 mrg10"><a>Other</a></div>
+                </div>
             </div>
             
             <!-- ./dublin bus -->
@@ -138,11 +183,12 @@
                 </div>
             </div>
             <!-- ./dublin-bikes -->
+            
             <h2>Private Hire</h2>
             <!-- GO Car -->
              <div class="row item">
                 <div class="col-sm-2">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkfhQ5TpZggiF5MOLf3yEMO2axa-jrYOHpDW8chKJr-sTWdbYEWQ" class="img-thumbnail small_image"></img>
+                    <img src="https://i1.wp.com/www.thesquare.ie/wp-content/uploads/2016/01/GoCar_LOGO.jpg?fit=381%2C381" class="img-thumbnail small_image"></img>
                 </div>
                 <div class="col-sm-10  side_border">
                     <h3>Go Car</h3>
@@ -150,6 +196,7 @@
                 </div>
             </div>
             <!-- ./go car -->
+            
             <h2>Google</h2>
             <!-- Google Maps -->
             <button class="accordion">
@@ -164,8 +211,13 @@
             </div>
             </button>
             <div class="panel">
-              <div style="width: 100%"><iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Google map generator</a></iframe></div><br />
+              <div style="width: 100%">
+                  <iframe width="100%" height="600" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=A&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Google map generator</a>
+                  </iframe>
+              </div><br />
             </div>
+            <!-- ./google maps -->
+            
         </div><!-- ./narrow bontainer -->
     </div><!-- ./full page container -->
     
@@ -185,7 +237,15 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 </script>
-    
 </body>
-<!--<footer>Tourism Ireland</footer>-->
+<!--<footer>-->
+<!--     <div class="container">-->
+<!--        <div class="row">-->
+            
+<!--            <div class="col-sm-4"></div>-->
+<!--            <div class="col-sm-4"></div>-->
+<!--            <div class="col-sm-4">-->
+<!--                <em>Your Irish Adventure Awaits</em>-->
+<!--            </div>-->
+<!--</footer>-->
 </html>

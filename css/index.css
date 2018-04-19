@@ -36,13 +36,22 @@ body {
 .side_border{
     border-left: 2px solid lightgrey;
 }
-footer {
+
+.small_head{
+    text-align: center;
+    font-family: 'Indie Flower', serif;
+}
+
+footer{
     background-color: #FFFAFA;
     position: absolute;
     font-family: 'Indie Flower', cursive;
-    font-size: 32px;
     color:#666;
-    margin-left: 60px;
-    height: 50px;
+    height: 30px;
     width: 100%;
+    font-size:18px;
+    font-weight: lighter;
+    border-left: 0px;
+    padding-bottom:0px;
+    margin-left:0px;
 }
