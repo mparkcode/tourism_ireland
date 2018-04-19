@@ -2,19 +2,22 @@
     background-image: url("https://www.riotgames.com/darkroom/1440/0dffc174c72ce3dbaa23a8650557b624:79c68bf22b496b9ffdab7bcb34c930d1/dublin.jpg");
     background-size: 100%;
     background-position: left;
-    height: 450px;
+    height: 415px;
     overflow: hidden;
+    width: 100%;
     
 }
 .jumbotext {
-    margin-right: 185px;  
+    margin-right: 155px;  
     color: #F8F8FF;
-    padding-top: 290px;
-    padding-left: 10px;
+    padding-top: 255px;
+    padding-left: 20px;
     font-family: 'Playfair Display', serif;
 }
 .row {
     padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .row p {
     text-align: right;
@@ -23,10 +26,22 @@
     margin-top: 40px;
     margin-bottom:2px;
 }
-col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+.col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
     float: none;
+}
+.col-sm-10{
+    /*padding-left: 10px;*/
+    margin-left: 20px;
 }
 .nav>li>a {
     position: relative;
     display: inline-block;
-    padding: 10px 15px;}
+    padding: 10px 15px;
+    
+}
+@media (max-width: 769px) {
+    .col-sm-10{
+        padding-left: 20px;
+        margin-left: 0px;
+    }
+}
